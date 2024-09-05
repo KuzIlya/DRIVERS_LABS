@@ -1,9 +1,11 @@
+import os
 from ctypes import cdll, c_double, c_int
 
 import matplotlib.pyplot as plt
 
+current_dir = os.getcwd()
 
-mydll = cdll.LoadLibrary(r"C:\Users\user\Desktop\C++\Drivers Lab 2\main.dll")
+mydll = cdll.LoadLibrary(os.path.join(current_dir, "main.dll"))
 
 my_func = mydll.Calculate_Integral
 my_func.restype = c_double
