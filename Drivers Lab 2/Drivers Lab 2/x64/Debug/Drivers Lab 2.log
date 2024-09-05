@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\user\Desktop\C++\Drivers Lab 2\Source.cpp(8,8): warning C4305: инициализация: усечение из "__int64" в "int"
+C:\Users\user\Desktop\C++\Drivers Lab 2\Source.cpp(8,10): warning C4309: инициализация: усечение константного значения
+  Drivers Lab 2.vcxproj -> C:\Users\user\Desktop\C++\Drivers Lab 2\x64\Debug\Drivers Lab 2.exe
